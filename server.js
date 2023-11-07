@@ -40,7 +40,7 @@ app.use(cookieParser());
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Job Tracker");
+  res.send("SubTrack");
 });
 
 app.get("/api/v1/test", (req, res) => {
